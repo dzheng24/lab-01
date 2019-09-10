@@ -1,0 +1,61 @@
+/* modules.css should contain smaller components on the page
+Apply to elements such as list items, individual images, specific paragraphs
+Classes and descendant selectors should primarily be included here */
+
+@media only screen and (min-width:480px) and (max-width:767px){
+
+    p{
+        text-align: center;
+    }
+
+    .top-one > p{
+        line-height: 75px;
+    }
+
+    .top-four > p{
+        line-height: 125px;
+    }
+
+    .square > p{
+        line-height: 250px;
+    }
+
+    .bottom > p{
+        line-height: 80px;
+    }
+
+    #a{
+       background-color:#C93AFF;
+    }
+
+    #b{
+        background-color:#B08BE8;
+    }
+
+    #c{
+        background-color:#ACA6FF;
+    }
+
+    #d{
+        background-color:#8BA3E8;
+    }
+
+    #e{
+        background-color:#99D4FF;
+    }
+
+    #f{
+        background-color:#9C14FF;
+    }
+
+    #g{
+        background-color:#A98BE8;
+    }
+
+    #h{
+        background-color:#ACA6FF;
+    }
+
+    #i{
+        background-color:#3556EB;
+    }

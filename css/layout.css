@@ -1,0 +1,41 @@
+/* layout.css should contain general positioning on the page
+Apply to elements such as header, footer, nav, aside
+Classes and IDs can be included here */
+
+@media only screen and (min-width:480px) and (max-width:767px){
+
+    body{
+        width:480px;
+    }
+    
+    div{
+        border: 1px solid black;
+    }
+
+    .top-one{
+        height: 75px;
+        width: 480px;
+    }
+
+    .top-four{
+        height: 125px;
+        width: 480px;
+    }
+
+    .square{
+        float: left;
+        height: 250px;
+        width: 240px;
+    }
+
+    .bottom{
+        clear: both;
+        height: 80px;
+        width: 480px;
+    }
+
+   
+
+
+
+
