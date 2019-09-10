@@ -1,0 +1,131 @@
+/* modules.css should contain smaller components on the page
+Apply to elements such as list items, individual images, specific paragraphs
+Classes and descendant selectors should primarily be included here */
+
+/* mobile view */
+
+@media only screen and (min-width:480px) and (max-width:767px){
+
+    p{
+        text-align: center;
+    }
+
+    .top-one > p{
+        line-height: 75px;
+    }
+
+    .top-four > p{
+        line-height: 125px;
+    }
+
+    .square > p{
+        line-height: 250px;
+    }
+
+    .bottom > p{
+        line-height: 80px;
+    }
+
+    #a{
+       background-color:#C93AFF;
+    }
+
+    #b{
+        background-color:#B08BE8;
+    }
+
+    #c{
+        background-color:#ACA6FF;
+    }
+
+    #d{
+        background-color:#8BA3E8;
+    }
+
+    #e{
+        background-color:#99D4FF;
+    }
+
+    #f{
+        background-color:#9C14FF;
+    }
+
+    #g{
+        background-color:#A98BE8;
+    }
+
+    #h{
+        background-color:#ACA6FF;
+    }
+
+    #i{
+        background-color:#3556EB;
+    }
+
+}
+
+/* desktop view */
+
+@media screen and (min-width:768px) and (max-width: 960px){
+
+    p{
+        text-align: center;
+    }
+
+    header > div > p{
+        line-height: 100px;
+    }
+
+    aside > div > p{
+        line-height: 600px;
+        
+    }
+
+    #c,#d > p{
+        line-height: 200px;
+    }
+
+    #e, #f, #g, #h, #i > p{
+        line-height: 250px;
+    }
+
+    #i > p{
+        line-height: 150px;
+    }
+
+    #a{
+        background-color: #8EFF1C;
+     }
+ 
+     #b{
+         background-color:#E8E21A;
+     }
+ 
+     #c{
+         background-color:#FFD62A;
+     }
+ 
+     #d{
+         background-color:#E89B1A;
+     }
+ 
+     #e{
+         background-color:#FF771C;
+     }
+ 
+     #f{
+         background-color:#E8E768;
+     }
+ 
+     #g{
+         background-color:#FFE880;
+     }
+ 
+     #h{
+         background-color:#E8BB68;
+     }
+ 
+     #i{
+         background-color:#FFAE73;
+     }
+}
