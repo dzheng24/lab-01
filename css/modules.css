@@ -10,7 +10,7 @@ Classes and descendant selectors should primarily be included here */
         text-align: center;
     }
 
-    .top-one > p{
+    #a-text{
         line-height: 75px;
     }
 
@@ -64,9 +64,9 @@ Classes and descendant selectors should primarily be included here */
 
 }
 
-/* desktop view */
+/* tablet view */
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) and (max-width:1024px){
 
     p{
         text-align: center;
@@ -95,10 +95,12 @@ Classes and descendant selectors should primarily be included here */
 
     #a{
         background-color: #8EFF1C;
+        line-height: 100px;
      }
  
      #b{
          background-color:#E8E21A;
+         line-height: 600px;
      }
  
      #c{
@@ -119,6 +121,70 @@ Classes and descendant selectors should primarily be included here */
  
      #g{
          background-color:#FFE880;
+     }
+ 
+     #h{
+         background-color:#E8BB68;
+     }
+ 
+     #i{
+         background-color:#FFAE73;
+     }
+}
+
+/* desktop view */
+@media only screen and (min-width: 1025px){
+
+    p{
+        text-align: center;
+    }
+
+
+    aside > div > p{
+        line-height: 720px;
+        
+    }
+
+    #c,#d > p{
+        line-height: 240px;
+    }
+
+    #e, #f, #g, #h, #i > p{
+        line-height: 300px;
+    }
+
+    #i > p{
+        line-height: 180px;
+    }
+
+    #a{
+        background-color: #C2674E;
+        line-height: 120px;
+     }
+ 
+     #b{
+         background-color:#803016;
+         line-height: 720px;
+     }
+ 
+     #c{
+         background-color:#FF602B;
+     }
+ 
+     #d{
+         background-color:#40180B;
+     }
+ 
+     #e{
+         background-color:#E65727;
+     }
+ 
+     #f{
+         background-color:#E67B5D;
+     }
+ 
+     #g{
+         background-color: #804433;
      }
  
      #h{
