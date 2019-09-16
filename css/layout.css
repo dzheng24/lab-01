@@ -7,42 +7,81 @@ Classes and IDs can be included here */
 @media only screen and (max-width:767px){
 
     body{
+        display: grid;
+        grid-template-areas:
+          "a a a a"
+          "b b b b"
+          "c c c c"
+          "d d d d"
+          "e e f f"
+          "g g h h"
+          "i i i i";
         margin: auto;
         width: 480px;
     }
-    
-    div{
-        border: 1px solid black;
-    }
 
-    .top-one{
+    #a{
+        grid-area: a;
         height: 75px;
         width: 480px;
     }
 
+    #b{
+        grid-area: b;
+    }
+    
+    #c{
+        grid-area: c;
+    }
+
+    #d{
+        grid-area: d;
+    }
+
+    #e{
+        grid-area: e;
+    }
+
+    #f{
+        grid-area: f;
+    }
+
+    #g{
+        grid-area: g;
+    }
+
+    #i{
+        grid-area: i;
+    }
+
+   
     .top-four{
         height: 125px;
         width: 480px;
     }
 
     .square{
-        float: left;
         height: 250px;
         width: 240px;
     }
 
     .bottom{
-        clear: both;
         height: 80px;
         width: 480px;
     }
 }
 
-/* desktop view */
+/* tablet view */
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) and (max-width:1024px){
     
     body{
+        display: grid;
+        grid-template-areas: 
+            "a a a a a a a a a" 
+            "b c c c c d d d d" 
+            "b e e f f g g h h"
+            "b i i i i i i i i";
         margin: auto;
         width: 960px;
     }
@@ -59,29 +98,133 @@ Classes and IDs can be included here */
     }
 
     aside > div{
-        float: left;
         height: 600px;
         width: 200px;
     }
 
+    #a{
+        grid-area: a;
+        height: 100px;
+        width: 960px;
+    }
+
+    #b{
+        grid-area: b;
+        height: 600px;
+        width: 200px;
+    }
+    #c{
+        grid-area: c;
+    }
+    
+    #d{
+        grid-area: d;
+    }
+
+    #e{
+        grid-area: e;
+    }
+
+    #f{
+        grid-area: f;
+    }
+
+    #g{
+        grid-area: g;
+    }
+
+    #h{
+        grid-area: h;
+    }
+
+    #i{
+        grid-area: i;
+    }
+
     #c,#d{
-        float: left;
         height: 200px;
         width: 380px;
     }
 
     #e, #f, #g, #h, #i{
-        float: left;
         height: 250px;
         width: 190px;
     }
 
     #i{
-        float: left;
         height: 150px;
         width: 760px;
     }
     
+}
+
+/* desktop view */
+@media only screen and (min-width: 1025px){
+
+    body{
+        display: grid;
+        grid-template-areas: 
+            "a a a a a a a a a" 
+            "c c c c d d d d b" 
+            "e e f f g g h h b"
+            "i i i i i i i i b";
+        margin: auto;
+        width: 1152px;
+    }
 
 
+    #a{
+        grid-area: a;
+        height: 120px;
+        width: 1152px;
+    }
+
+    #b{
+        grid-area: b;
+        height: 720px;
+        width: 240px;
+    }
+    #c{
+        grid-area: c;
+    }
+    
+    #d{
+        grid-area: d;
+    }
+
+    #e{
+        grid-area: e;
+    }
+
+    #f{
+        grid-area: f;
+    }
+
+    #g{
+        grid-area: g;
+    }
+
+    #h{
+        grid-area: h;
+    }
+
+    #i{
+        grid-area: i;
+    }
+
+    #c,#d{
+        height: 240px;
+        width: 456px;
+    }
+
+    #e, #f, #g, #h, #i{
+        height: 300px;
+        width: 228px;
+    }
+
+    #i{
+        height: 180px;
+        width: 912px;
+    }
+    
 }
